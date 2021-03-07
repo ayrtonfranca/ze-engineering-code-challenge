@@ -1,7 +1,7 @@
 package br.com.ze.delivery.testQa.stepsDefinitions.site;
 
-import br.com.ze.delivery.testQa.page.object.site.SiteNavigation;
 import io.cucumber.java.en.Given;
+import page.object.site.SiteNavigation;
 
 public class SiteAction {
 

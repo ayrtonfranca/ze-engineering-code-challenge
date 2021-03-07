@@ -1,8 +1,8 @@
-package br.com.ze.delivery.testQa.page.object.login;
+package page.object.login;
 
-import static br.com.ze.delivery.testQa.core.setup.DriverFactory.getDriver;
+import static core.setup.DriverFactory.getDriver;
 
-import br.com.ze.delivery.testQa.page.factory.login.LoginFactory;
+import page.factory.login.LoginFactory;
 
 public class LoginAction {
 	

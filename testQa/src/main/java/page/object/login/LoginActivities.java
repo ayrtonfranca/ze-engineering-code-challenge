@@ -1,6 +1,7 @@
-package br.com.ze.delivery.testQa.page.object.login;
+package page.object.login;
 
-import br.com.ze.delivery.testQa.page.object.home.HomeAction;
+import core.util.dataMass.LoginMass;
+import page.object.home.HomeAction;
 
 public class LoginActivities{
 
@@ -8,10 +9,11 @@ public class LoginActivities{
 	LoginAction loginAction = new LoginAction();
 	
 	public void loginZeDelivery(String file_json, String id_massa) {
+		LoginMass loginMass = new LoginMass(file_json, id_massa);
 		homeAction.clickBannerYes();
 		homeAction.clickSignIn();
-		loginAction.insertEmail(id_massa);
-		loginAction.inserPassword(id_massa);
+		loginAction.insertEmail(loginMass.getUser_email());
+		loginAction.inserPassword(loginMass.getUser_password());
 		loginAction.clickLoginMail();
 	}
 }

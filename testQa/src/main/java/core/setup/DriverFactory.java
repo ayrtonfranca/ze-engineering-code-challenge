@@ -1,4 +1,4 @@
-package br.com.ze.delivery.testQa.core.setup;
+package core.setup;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,4 +1,4 @@
-package br.com.ze.delivery.testQa.core.setup;
+package core.setup;
 
 import java.util.concurrent.TimeUnit;
 

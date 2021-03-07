@@ -1,8 +1,8 @@
-package br.com.ze.delivery.testQa.page.object.home;
+package page.object.home;
 
-import static br.com.ze.delivery.testQa.core.setup.DriverFactory.getDriver;
+import static core.setup.DriverFactory.getDriver;
 
-import br.com.ze.delivery.testQa.page.factory.home.HomeFactory;
+import page.factory.home.HomeFactory;
 
 public class HomeAction{
 

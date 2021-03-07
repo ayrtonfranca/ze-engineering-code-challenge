@@ -1,10 +1,10 @@
-package br.com.ze.delivery.testQa.page.factory.login;
+package page.factory.login;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import br.com.ze.delivery.testQa.core.setup.BasePage;
+import core.setup.BasePage;
 
 public class LoginFactory extends BasePage{
 	

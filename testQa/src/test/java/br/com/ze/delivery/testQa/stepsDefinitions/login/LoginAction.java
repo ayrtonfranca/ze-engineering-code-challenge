@@ -1,8 +1,7 @@
 package br.com.ze.delivery.testQa.stepsDefinitions.login;
 
-import br.com.ze.delivery.testQa.page.object.login.LoginActivities;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
+import page.object.login.LoginActivities;
 
 public class LoginAction {
   
@@ -10,6 +9,6 @@ public class LoginAction {
 	
 	@When("^I log in Ze Delivery$")
 	public void log_ze_delivery() throws Throwable {
-		loginActivities.loginZeDelivery(null, null);
+		loginActivities.loginZeDelivery("loginData", "login_valid");
 	}
 }
