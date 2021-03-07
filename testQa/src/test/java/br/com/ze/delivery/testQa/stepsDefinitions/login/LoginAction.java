@@ -1,15 +1,15 @@
 package br.com.ze.delivery.testQa.stepsDefinitions.login;
 
+import br.com.ze.delivery.testQa.page.object.login.LoginActivities;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
 public class LoginAction {
-  @Given("^you are in Given annotation$")
-  public void given() throws Throwable {
-  }
-
-  @When("^you are in When annotation$")
-  public void when() throws Throwable {
-  }
-
+  
+	LoginActivities loginActivities = new LoginActivities();
+	
+	@When("^I log in Ze Delivery$")
+	public void log_ze_delivery() throws Throwable {
+		loginActivities.loginZeDelivery(null, null);
+	}
 }

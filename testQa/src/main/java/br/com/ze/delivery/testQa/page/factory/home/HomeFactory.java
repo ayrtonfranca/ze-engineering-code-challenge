@@ -17,4 +17,7 @@ public class HomeFactory extends BasePage {
 	
 	@FindBy(id = "age-gate-button-no")
 	public WebElement btn_no;
+	
+	@FindBy(id = "welcome-button-sign-in")
+	public WebElement btn_sign_in; 
 }
